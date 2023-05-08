@@ -7,7 +7,7 @@ const Pagina = (props) => {
         <>
 
             <Cabecalho/>
-            <div className="bg-secondary text-white py-2 text-center margin-bottom mb-3">
+            <div className="bg-warning text-white py-2 text-center margin-bottom mb-3">
                 <h3>{props.titulo}</h3>
             </div>
             <Container>{props.children}</Container>

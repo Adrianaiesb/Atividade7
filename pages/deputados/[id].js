@@ -18,7 +18,7 @@ const Detalhes = ({ deputado, despesas, profissoes }) => {
                                 <p><strong>UF: </strong>{deputado.ultimoStatus.siglaUf}</p>
                             </Card.Body>
                         </Card>
-                        <Link className='btn btn-danger mt-3' href={'/deputados/'}>Voltar</Link>
+                        <Link className='btn btn-info mt-3' href={'/deputados/'}>Voltar</Link>
                     </Col>
                     <Col md={6}>
                         <Table striped bordered hover>

@@ -19,7 +19,7 @@ const index = ({ deputados }) => {
                                 <Card.Title>{item.nome}</Card.Title>
                                 <p>Partido: {item.siglaPartido}</p>
                                 <p>UF: {item.siglaUf}</p>
-                                <Link className='btn btn-danger' href={'/deputados/' + item.id}>Detalhes</Link>
+                                <Link className='btn btn-info' href={'/deputados/' + item.id}>Detalhes</Link>
                             </Card.Body>
                         </Card>
                     </Col>
